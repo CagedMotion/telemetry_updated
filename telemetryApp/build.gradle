@@ -23,9 +23,9 @@ repositories {
 
 dependencies {
     // This dependency is found on compile classpath of this component and consumers.
-    compile 'com.google.guava:guava:23.0'
+    compile 'com.google.guava:guava:33.0.0-jre'
 
-    compile 'com.neuronrobotics:nrjavaserial:3.12.1'
+    compile 'com.neuronrobotics:nrjavaserial:5.2.1'
 
     // Use JUnit test framework
     testCompile 'junit:junit:4.12'
